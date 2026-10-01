@@ -1,0 +1,26 @@
+[project]
+name = "hotel-management-ai-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nadeen-Gunathilake", email = "nadeen.guna05@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "gradio>=6.28.0",
+    "ipykernel>=7.3.0",
+    "ipython>=9.17.1",
+    "jupyterlab>=4.6.4",
+    "litellm>=1.102.1",
+    "openai>=2.54.0",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+hotel-management-ai-agent = "hotel_management_ai_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"

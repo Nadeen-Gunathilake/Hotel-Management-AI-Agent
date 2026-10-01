@@ -1,0 +1,8 @@
+python-dotenv
+openai
+litellm
+gradio
+requests
+ipython
+jupyterlab
+ipykernel
